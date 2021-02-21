@@ -11,5 +11,12 @@ tracer:
   property: "I AM THE Dev"
 
 my:
-  value: "DEV  original11111111111"
-
+  value: "DEV"
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+  serviceUrl:
+    defaultZone: http://localhost:8761/eureka/  
