@@ -1,9 +1,9 @@
 ---
-# management:
-#   endpoints:
-#     web:
-#       exposure:
-#         include: "*"
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
 spring:
   jpa:
     show-sql: "true"
@@ -11,5 +11,5 @@ tracer:
   property: "I AM THE Dev"
 
 my:
-  value: "DEV"
+  value: "DEV with chnages"
 
