@@ -1,1 +1,8 @@
+spring:
+  jpa:
+    show-sql: "true"
+tracer:
+  property: "I AM THE Default"
 
+my:
+  value: "org DEFAULT "
